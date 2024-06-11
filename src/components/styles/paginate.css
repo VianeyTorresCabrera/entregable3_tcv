@@ -1,0 +1,14 @@
+.paginate_next,
+.paginate_prev{
+    background-color: #71AB21;
+    color: white;
+    font: inherit;
+    padding: 5px;
+    border-radius: 5px ;  
+}
+
+.paginate_status{    
+    font: inherit;
+    font-weight: 900;
+    padding: 15px;
+}

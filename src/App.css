@@ -1,0 +1,126 @@
+:root {
+    --header-height: 60px;
+    --bg-card: #028D7D;
+    --txt-body: #ffff;
+    --bg-nav: #f5f4f1;  
+    --color-primary: #27B359 ;
+    --btn-color: #C9AC01;
+    --btn-txt: #B3271C;
+    --bg-300:#cccbc8;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: "Space Grotesk", sans-serif; 
+    background-image: url("..//assets/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;         
+}
+
+
+ul{
+    list-style: none;    
+}
+
+/*img{
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}*/
+
+input,
+button{
+    display: inline-block;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+}
+
+button{
+    border: none;
+}
+
+/*app*/
+
+.app{  
+    width: 100vw;
+    height: 100vh;    
+    position:sticky;         
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    gap: 20px;    
+}
+
+.app_loading{ 
+    display: flex;  
+    position: relative;        
+}
+
+.app_loading_title{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    margin: 0 auto; 
+    color: white;
+    font-size: 3rem;
+    text-shadow: #71AB21 1px 0 10px;
+}
+
+.app_loading_img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.app_header_img{ 
+    background-image: url("..//assets/banner.gif");  
+    min-width: 100%; 
+    min-height: 200px;     
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;       
+  }
+
+.app_title{
+    text-align: center;
+    padding: 20px;    
+}
+
+.app_form{
+    display: flex;
+    justify-content: center;    
+}
+
+.app_form_input{
+    border-radius: 7px 0 0 7px;   
+}
+
+.app_form_btn{
+    border-radius: 0 7px 7px 0;
+    padding: 5px 10px;
+    background-color: #71AB21;   
+    color: white;
+    font: inherit;
+}
+
+.app_container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:20px;    
+}
+
