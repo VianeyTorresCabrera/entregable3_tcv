@@ -85,14 +85,15 @@ img{
 }
 
 .residentcard_item span:first-child{
-    color: #15a54c9d;
+    color: #F0E14A;
     font-weight: 500;
     padding-left: 20px;    
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 
 .residentcard_item span:last-child{
     color: aliceblue;    
-    font-size: 0.9em;
+    font-size: 1em;
     font-style: oblique;
+    font:inherit;
 }

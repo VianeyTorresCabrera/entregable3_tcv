@@ -26,6 +26,7 @@
 }
 
 .location_name{
+    text-align: center;
     color: #798724;
     text-shadow: 1px 1px 2px #95f80b ;
 }
@@ -54,5 +55,6 @@
 }
 
 .location_item :last-child{
-    font-style: oblique;    
+    font-style: oblique;
+    text-wrap: wrap;    
 }

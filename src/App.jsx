@@ -57,7 +57,7 @@ function App() {
             </div>        
                                    
             <form className='app_form' onSubmit={handleSubmit}>
-              <input className='app_form_input' ref={textInput} type="number" />
+              <input className='app_form_input' ref={textInput} type="number" placeholder='1 to 126 planets' />
               <button className='app_form_btn'>Search</button>
             </form>
             {
