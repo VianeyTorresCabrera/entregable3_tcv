@@ -1,4 +1,4 @@
-# Vianey Torres Cabrera
+# Rick and Morty App
 
 Este proyecto es realizado con el proposito de presentar mis habilidades como desarrollador Web Full-Stack. - 
 Aplicación web que nos permite ver a todos los personajes de la serie de Rick and Morty por su locación utilizando su API.
